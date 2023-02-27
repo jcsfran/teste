@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs;
+namespace Julio\Docs\Src;
 
 use Closure;
 use Illuminate\Http\{

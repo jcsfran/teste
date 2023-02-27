@@ -19,8 +19,7 @@
     "extra": {
         "laravel": {
           "providers": [
-                "Julio\\Docs\\Src\\DocsServiceProvider",
-                "Julio\\Docs\\Src\\RouteServiceProvider"
+                "Julio\\Docs\\Src\\DocsServiceProvider"
             ]
         }
     },

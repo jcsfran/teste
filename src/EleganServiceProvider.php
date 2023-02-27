@@ -24,7 +24,7 @@ class EleganServiceProvider extends ServiceProvider
             $configPath => config_path(),
             $resourcesPath . '/views/index.blade.php' => config('l5-swagger.defaults.paths.views') . '/index.blade.php',
 
-            $resourcesPath . '/views/elegan.blade.php' => base_path('resources/views/elegan') . '/form.blade.php',
+            $resourcesPath . '/views/docs.blade.php' => base_path('resources/views/elegan') . '/form.blade.php',
             $resourcesPath . '/components' => base_path('resources/views/components'),
 
             $resourcesPath . '/publish' => public_path('elegan'),

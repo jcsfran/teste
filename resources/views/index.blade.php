@@ -18,8 +18,8 @@
     </header>
     <div id="swagger-ui"></div>
 
-    <script src="../docs/utils/jquery-2.1.4.min.js"></script>
-    <script src="../docs/utils/swagger-bundle.js"></script>
+    <script src="{{ asset('elegan/utils/jquery-2.1.4.min.js') }}"></script>
+    <script src="{{ asset('elegan/utils/swagger-bundle.js') }}"></script>
     <script type="application/javascript">
         const ui = SwaggerUIBundle({
             url: <?php echo json_encode(asset('elegan/index.yaml')); ?>,

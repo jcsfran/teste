@@ -34,7 +34,7 @@ return [
     /*
      * Default tries to access route 
     */
-    'rate_limit' => 5,
+    'rate_limit' => 15,
 
     /*
      * How long the route will be blocked

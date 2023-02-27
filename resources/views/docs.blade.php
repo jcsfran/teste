@@ -2,11 +2,11 @@
 <html>
 
 <head>
+    <link rel="shortcut icon" href="{{ asset('elegan/favicon.ico') }}" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name') }} | Elegan Docs</title>
     <link href="{{ asset('elegan/assets/access-docs.css') }}" rel="stylesheet">
-    <link rel="icon" href="{{ asset('elegan/favicon.ico') }}" type="image/x-icon">
 </head>
 
 <body>

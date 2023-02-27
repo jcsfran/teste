@@ -1,10 +1,10 @@
 <html>
 
 <head>
+    <link rel="shortcut icon" href="{{ asset('elegan/favicon.ico') }}" type="image/x-icon">
     <title>{{ config('app.name') }} | Api Docs</title>
     <link href="{{ asset('elegan/assets/style.css') }}" rel="stylesheet">
     <link href="{{ asset('elegan/assets/patch-note.css') }}" rel="stylesheet">
-    <link rel="icon" href="{{ asset('elegan/favicon.ico') }}" type="image/x-icon">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <script src="../docs/utils/swagger-bundle.js"></script>
     <script type="application/javascript">
         const ui = SwaggerUIBundle({
-            url: "../docs/index.yaml",
+            url: <?php echo json_encode(asset('elegan/index.yaml')); ?>,
             dom_id: '#swagger-ui',
             deepLinking: true,
         });

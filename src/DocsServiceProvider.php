@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs;
+namespace Julio\Docs\Src;
 
 use Illuminate\Support\ServiceProvider;
 use Julio\Docs\Console\{

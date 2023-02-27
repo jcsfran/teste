@@ -1,8 +1,8 @@
 <?php
 
-namespace Julio\Docs\Contracts;
+namespace Julio\Docs\Src\Contracts;
 
-use Julio\Docs\Structures\{
+use Julio\Docs\Src\Structures\{
     AuthStructure,
     BasicStructure,
     ParamsStructure,

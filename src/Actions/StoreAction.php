@@ -1,8 +1,8 @@
 <?php
 
-namespace Julio\Docs\Actions;
+namespace Julio\Docs\Src\Actions;
 
-use Julio\Docs\Contracts\{
+use Julio\Docs\Src\Contracts\{
     Action,
     EleganInterface,
 };

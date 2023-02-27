@@ -2,7 +2,7 @@
 
 namespace Julio\Docs;
 
-use Julio\Docs\Actions\{
+use Julio\Docs\Src\Actions\{
     DestroyAction,
     IndexAction,
     ShowAction,

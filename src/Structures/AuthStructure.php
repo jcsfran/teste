@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs\Structures;
+namespace Julio\Docs\Src\Structures;
 
 use Symfony\Component\HttpFoundation\Response as HttpResponse;
 

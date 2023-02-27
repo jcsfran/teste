@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs\Contracts;
+namespace Julio\Docs\Src\Contracts;
 
 interface EleganInterface
 {

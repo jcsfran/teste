@@ -2,7 +2,7 @@
 
 namespace Julio\Docs\Src;
 
-use Julio\Docs\Elegan;
+use Julio\Docs\Src\Elegan;
 use Symfony\Component\Yaml\Yaml;
 
 class EleganHelper

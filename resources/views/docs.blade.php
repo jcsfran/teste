@@ -44,7 +44,7 @@
                 </div>
             @endisset
 
-            Tentativas: {{ RateLimiter::remaining(Request::ip(), config('elegan.rate_limit')) }}
+            Tentativas: {{ RateLimiter::remaining(Request::ip(), config('elegan.rate_limit')) + 1 }}
             <button type="submit">Acessar</button>
         </form>
     </section>

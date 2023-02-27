@@ -2,7 +2,7 @@
 
 namespace Julio\Docs\Actions;
 
-use Labi9\Elegan\Contracts\{
+use Julio\Docs\Contracts\{
     Action,
     EleganInterface,
 };

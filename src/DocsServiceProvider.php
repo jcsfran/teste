@@ -3,7 +3,7 @@
 namespace Julio\Docs;
 
 use Illuminate\Support\ServiceProvider;
-use Labi9\Elegan\Console\{
+use Julio\Docs\Console\{
     GeneratePatchNoteCommand,
     GenerateRouteCommand,
 };

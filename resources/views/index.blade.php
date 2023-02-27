@@ -27,7 +27,7 @@
         });
     </script>
 
-    @inject('eleganHelper', 'Labi9\Elegan\EleganHelper')
+    @inject('eleganHelper', 'Julio\Docs\EleganHelper')
 
     <h2 id="patch-notes">Notas de atualização</h2>
 

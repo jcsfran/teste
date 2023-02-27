@@ -2,7 +2,7 @@
 
 namespace Julio\Docs;
 
-use Labi9\Elegan\Actions\{
+use Julio\Docs\Actions\{
     DestroyAction,
     IndexAction,
     ShowAction,

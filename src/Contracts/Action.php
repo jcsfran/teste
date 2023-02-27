@@ -2,7 +2,7 @@
 
 namespace Julio\Docs\Contracts;
 
-use Labi9\Elegan\Structures\{
+use Julio\Docs\Structures\{
     AuthStructure,
     BasicStructure,
     ParamsStructure,

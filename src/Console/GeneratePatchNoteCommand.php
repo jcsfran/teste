@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs\Console;
+namespace Julio\Docs\Src\Console;
 
 use Carbon\Carbon;
 use Illuminate\{

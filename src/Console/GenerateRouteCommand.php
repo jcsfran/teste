@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs\Console;
+namespace Julio\Docs\Src\Console;
 
 use Illuminate\Console\Command;
 use Julio\Docs\EleganHelper;

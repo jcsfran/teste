@@ -3,7 +3,7 @@
 namespace Julio\Docs\Src;
 
 use Illuminate\Support\ServiceProvider;
-use Julio\Docs\Console\{
+use Julio\Docs\Src\Console\{
     GeneratePatchNoteCommand,
     GenerateRouteCommand,
 };

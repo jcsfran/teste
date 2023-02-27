@@ -3,7 +3,7 @@
 namespace Julio\Docs\Src\Console;
 
 use Illuminate\Console\Command;
-use Julio\Docs\EleganHelper;
+use Julio\Docs\Src\EleganHelper;
 
 class GenerateRouteCommand extends Command
 {

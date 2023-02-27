@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs;
+namespace Julio\Docs\Src;
 
 use Julio\Docs\Elegan;
 use Symfony\Component\Yaml\Yaml;

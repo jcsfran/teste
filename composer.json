@@ -1,5 +1,5 @@
 {
-    "name": "labi9/elegan",
+    "name": "julio/docs",
     "type": "library",
     "description": "Standardizes the documentation of the project routes and creates the documentation files via console.",
     "require": {
@@ -8,19 +8,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Labi9\\Elegan\\": ""
+            "Julio\\docs\\": ""
         }
     },
     "authors": [
         {
-            "name": "Labi9 Team"
+            "name": "Julio Team"
         }
     ],
     "extra": {
         "laravel": {
           "providers": [
-                "Labi9\\Elegan\\EleganServiceProvider",
-                "Labi9\\Elegan\\RouteServiceProvider"
+                "Julio\\docs\\DocsServiceProvider",
+                "Julio\\Elegan\\RouteServiceProvider"
             ]
         }
     },

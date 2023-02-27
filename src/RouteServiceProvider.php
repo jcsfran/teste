@@ -1,6 +1,6 @@
 <?php
 
-namespace Labi9\Elegan;
+namespace Julio\Docs;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;

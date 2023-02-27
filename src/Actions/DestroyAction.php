@@ -1,6 +1,6 @@
 <?php
 
-namespace Labi9\Elegan\Actions;
+namespace Julio\Docs\Actions;
 
 use Labi9\Elegan\Contracts\{
     Action,

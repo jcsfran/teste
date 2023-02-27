@@ -1,6 +1,6 @@
 <?php
 
-namespace Labi9\Elegan;
+namespace Julio\Docs;
 
 use Closure;
 use Illuminate\Http\{

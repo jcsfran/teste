@@ -1,6 +1,6 @@
 <?php
 
-namespace Labi9\Elegan\Contracts;
+namespace Julio\Docs\Contracts;
 
 use Labi9\Elegan\Structures\{
     AuthStructure,

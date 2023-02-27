@@ -1,6 +1,6 @@
 <?php
 
-namespace Labi9\Elegan;
+namespace Julio\Docs;
 
 use Illuminate\Support\ServiceProvider;
 use Labi9\Elegan\Console\{
@@ -8,7 +8,7 @@ use Labi9\Elegan\Console\{
     GenerateRouteCommand,
 };
 
-class EleganServiceProvider extends ServiceProvider
+class DocsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application events.

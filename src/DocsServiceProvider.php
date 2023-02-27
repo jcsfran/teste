@@ -31,8 +31,8 @@ class DocsServiceProvider extends ServiceProvider
         ]);
 
         $this->commands([
-            CreateRouteForDocumentation::class,
-            PatchNoteCommand::class,
+            GenerateRouteCommand::class,
+            GeneratePatchNoteCommand::class,
         ]);
     }
 }

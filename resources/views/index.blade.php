@@ -2,9 +2,9 @@
 
 <head>
     <title>{{ config('app.name') }} | Api Docs</title>
-    <link href="{{ asset('swagger/docs/assets/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('swagger/docs/assets/patch-note.css') }}" rel="stylesheet">
-    <link rel="icon" href="{{ asset('swagger/docs/favicon.ico') }}" type="image/x-icon">
+    <link href="{{ asset('elegan/assets/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('elegan/assets/patch-note.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ asset('elegan/favicon.ico') }}" type="image/x-icon">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         });
     </script>
 
-    @inject('eleganHelper', 'Labi9\Elegan\EleganHelper')
+    @inject('eleganHelper', 'Julio\Docs\Src\EleganHelper')
 
     <h2 id="patch-notes">Notas de atualização</h2>
 

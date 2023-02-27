@@ -27,8 +27,7 @@ class EleganServiceProvider extends ServiceProvider
             $resourcesPath . '/views/docs.blade.php' => base_path('resources/views/api-docs') . '/docs.blade.php',
             $resourcesPath . '/components' => base_path('resources/views/components'),
 
-            $resourcesPath . '/docs' => public_path('docs'),
-            $resourcesPath . '/docs' => public_path('docs'),
+            $resourcesPath . '/docs' => public_path('elegan'),
         ]);
 
         $this->commands([

@@ -1,6 +1,6 @@
 <?php
 
-namespace Julio\Docs;
+namespace Julio\Docs\Src;
 
 use Julio\Docs\Src\Actions\{
     DestroyAction,

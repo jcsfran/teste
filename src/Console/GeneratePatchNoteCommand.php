@@ -66,22 +66,22 @@ class GeneratePatchNoteCommand extends Command
         $routes = $this->option('routes');
 
         $structure = "info: " . PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 2) . "version: 0.0." . PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 2) . "title: ''" . PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 2) . "date: '" .
+        $structure .= str_repeat(config('elegan.space'), 2) . "version: 0.0." . PHP_EOL;
+        $structure .= str_repeat(config('elegan.space'), 2) . "title: ''" . PHP_EOL;
+        $structure .= str_repeat(config('elegan.space'), 2) . "date: '" .
             Carbon::now()->isoFormat('Y-MM-DD') .
             "'" .
             PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 2) . "content:" . PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 2) . "- tag: ''" . PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 4) . "description: ''" . PHP_EOL;
-        $structure .= str_repeat(config('documentation.space'), 4) . "routes: " . PHP_EOL;
+        $structure .= str_repeat(config('elegan.space'), 2) . "content:" . PHP_EOL;
+        $structure .= str_repeat(config('elegan.space'), 2) . "- tag: ''" . PHP_EOL;
+        $structure .= str_repeat(config('elegan.space'), 4) . "description: ''" . PHP_EOL;
+        $structure .= str_repeat(config('elegan.space'), 4) . "routes: " . PHP_EOL;
 
         for ($i = 1; $i <= $routes; $i++) {
-            $structure .= str_repeat(config('documentation.space'), 4) . "- description: ''" . PHP_EOL;
-            $structure .= str_repeat(config('documentation.space'), 6) . "method: ''" . PHP_EOL;
-            $structure .= str_repeat(config('documentation.space'), 6) . "endpoint: ''" . PHP_EOL;
-            $structure .= str_repeat(config('documentation.space'), 6) . "action: ''" . PHP_EOL;
+            $structure .= str_repeat(config('elegan.space'), 4) . "- description: ''" . PHP_EOL;
+            $structure .= str_repeat(config('elegan.space'), 6) . "method: ''" . PHP_EOL;
+            $structure .= str_repeat(config('elegan.space'), 6) . "endpoint: ''" . PHP_EOL;
+            $structure .= str_repeat(config('elegan.space'), 6) . "action: ''" . PHP_EOL;
         }
 
         return $structure;

@@ -9,7 +9,7 @@ return [
     /*
      * Default path to save and get patch note files
     */
-    'patch_note_path' => public_path('docs/versions'),
+    'patch_note_path' => public_path('elegan/versions'),
 
     /*
      * Used to recognize the parameter typed in the console
@@ -24,12 +24,12 @@ return [
     /*
      * Path to the folder where the actions.yaml files and their "methods".yaml will be located
     */
-    'route_path' => public_path('docs/routes'),
+    'route_path' => public_path('elegan/routes'),
 
     /*
      * Key to access the documentation
     */
-    'key' => env('DOCS_KEY', 'elegan'),
+    'key' => env('ELEGAN_KEY', 'elegan'),
 
     /*
      * Default tries to access route 
